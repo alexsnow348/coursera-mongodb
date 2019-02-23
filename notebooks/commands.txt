@@ -1,0 +1,2 @@
+mongoimport --drop --type csv --headerline --db mflix --collection movies --host "alexsnow-shard-00-00-dih9i.mongodb.net:27017,alexsnow-shard-00-01-dih9i.mongodb.net:27017,alexsnow-shard-00-02-dih9i.mongodb.net:27017" --authenticationDatabase admin --ssl --username alexsnow --password Yonyamin10 --file movies_initial.csv
+
